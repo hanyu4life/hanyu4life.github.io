@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "AR PL UKai CN";
+  src: url("../fonts/ukai.ttc") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AR PL UKai CN";
+  src: url("../fonts/ukai.ttc") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "AR PL UKai CN", "Noto Sans SC", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3d1dc;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+
+#allWords .word {
+  font-size: 42px;
+  white-space: nowrap;
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 5px 20px;
+  color: #000000;
+  border: 2px solid #ef94b2;
+  border-radius: 20px;
+}
+
+#allWords .word.m0 {
+  background-color: #ffeded;
+}
+#allWords .word.m1 {
+  background-color: #ffeef8;
+}
+#allWords .word.m2 {
+  background-color: #fffeed;
+}
+#allWords .word.m3 {
+  background-color: #f2ffed;
+}
+#allWords .word.m4 {
+  background-color: #edf0ff;
+}
+#allWords .word.m5 {
+  background-color: #fbfbfb;
+}

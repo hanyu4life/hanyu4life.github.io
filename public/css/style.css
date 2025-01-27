@@ -1,19 +1,5 @@
-@font-face {
-  font-family: "AR PL UKai CN";
-  src: url("../fonts/ukai.ttc") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "AR PL UKai CN";
-  src: url("../fonts/ukai.ttc") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
 body {
-  font-family: "AR PL UKai CN", "Noto Sans SC", sans-serif;
+  font-family: "FZKai-Z03", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f3d1dc;

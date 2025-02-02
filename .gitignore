@@ -1,1 +1,39 @@
 output/
+
+_gen
+.DS_Store
+
+*.log
+
+# Hugo default output directory
+/public
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+# NPM
+node_modules/
+npm-debug.log
+
+# IDE
+.idea
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+
+# OS
+._*
+Thumbs.db
+.DS_Store
+.Trashes
+.Spotlight-V100
+.AppleDouble
+.LSOverride
+Desktop.ini
